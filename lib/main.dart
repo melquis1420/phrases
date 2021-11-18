@@ -58,7 +58,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Frases do dia "),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green[900],
       ),
       body: Center(
         //centraliza todo o container.
@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                color: Colors.green,
+                color: Colors.green[900],
                 onPressed: gerarFrase,
               )
             ],
